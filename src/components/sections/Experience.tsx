@@ -4,48 +4,89 @@ import { Badge } from "@/components/ui/badge"
 
 const experiences: IExperience[] = [
   {
+    id: "0",
+    company: "Hostly",
+    position: "Back End Developer",
+    startYear: "2025",
+    endYear: "Present",
+    responsibilities: [
+      "Lead the backend team to work on the backend for Hostly, a social app optimized for hosting and promoting social events.",
+      "Designed the ERD and databases structure based on client’s needs",
+      "Worked on WebSocket technology for real-time messaging and optimized the payload for up to 90% speed",
+      "Worked on Firebase for real-time notification used by the application",
+      "Integrated Apple sign-in mechanism for Flutter mobile app"
+    ],
+    techStack: [
+      "TypeScript",
+      "ExpressJS",
+      "MySQL",
+      "Redis",
+      "Docker",
+      "Firebase"
+    ]
+  },
+  {
     id: "1",
-    company: "Tech Solutions Inc.",
-    position: "Senior Full Stack Developer",
+    company: "Rally the Locals",
+    position: "Lead Developer",
     startYear: "2022",
     endYear: "Present",
     responsibilities: [
-      "Led a team of 5 developers in building and maintaining enterprise-level applications",
-      "Architected and implemented microservices-based solutions using modern tech stack",
-      "Improved system performance by 40% through optimization and refactoring",
-      "Mentored junior developers and conducted code reviews"
+      "Developed Rally the Locals main frontend along with supporting pages",
+      "Developed the payment gateway using Stripe",
+      "Developed and improved RTL admin dashboard for better administrator experience and easier organization",
+      "Designed and led migration from a PHP Laravel backend to NodeJS + ExpressJS backend",
+      "Designed Bitbucket CI pipeline for development",
+      "Handled deployment for the migrated frontend and backend"
     ],
-    techStack: ["React", "Node.js", "TypeScript", "AWS", "MongoDB"]
+    techStack: [
+      "Laravel",
+      "NextJS",
+      "ExpressJS",
+      "Tailwind",
+      "Stripe",
+      "Docker",
+      "Atlassian Suite"
+    ]
   },
   {
     id: "2",
-    company: "Digital Innovations Co.",
-    position: "Full Stack Developer",
-    startYear: "2020",
+    company: "Technowand",
+    position: "Freelance Full Stack Web Developer",
+    startYear: "2022",
     endYear: "2022",
     responsibilities: [
-      "Developed and maintained multiple client-facing web applications",
-      "Implemented RESTful APIs and integrated third-party services",
-      "Collaborated with UX designers to implement responsive designs",
-      "Participated in agile development processes"
+      "Developed a fitness and personal trainer website using CodeIgniter",
+      "Handled Stripe integration for transactions",
+      "Developed the application using Scrum methodology"
     ],
-    techStack: ["Laravel", "Vue.js", "MySQL", "Docker", "Redis"]
+    techStack: [
+      "CodeIgniter",
+      "Stripe",
+      "Bootstrap",
+      "Jira"
+    ]
   },
   {
     id: "3",
-    company: "StartUp Hub",
-    position: "Junior Developer",
-    startYear: "2018",
-    endYear: "2020",
+    company: "DPTSI - Institut Teknologi Sepuluh Nopember",
+    position: "Intern Full Stack Web Developer",
+    startYear: "2020",
+    endYear: "2021",
     responsibilities: [
-      "Built and maintained company website and internal tools",
-      "Assisted in database design and optimization",
-      "Implemented automated testing and CI/CD pipelines",
-      "Collaborated with cross-functional teams"
+      "Developed the proctoring system for ITS entrance exam",
+      "Designed the database and data management system to streamline report generation with up to 60% faster load times",
+      "Developed a MOOC platform using Laravel and Bootstrap",
+      "Designed scalable database and models for the MOOC application"
     ],
-    techStack: ["PHP", "JavaScript", "MySQL", "Git", "Jenkins"]
+    techStack: [
+      "Laravel",
+      "Microsoft SQL Server",
+      "Bootstrap"
+    ]
   }
 ]
+
 
 export function Experience() {
   return (
@@ -66,8 +107,8 @@ export function Experience() {
                   key={exp.id}
                   className={`relative ${
                     index % 2 === 0
-                      ? 'lg:pr-12 xl:translate-x-[-50%] lg:translate-x-[-20%]'
-                      : 'lg:pl-12 xl:translate-x-[50%] lg:translate-x-[20%]'
+                      ? 'lg:pr-12 xl:translate-x-[-45%] lg:translate-x-[-20%]'
+                      : 'lg:pl-12 xl:translate-x-[45%] lg:translate-x-[20%]'
                   }`}
                 >
                   {/* Timeline dot */}
