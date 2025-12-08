@@ -10,14 +10,20 @@ const socialLinks: ISocialMedia[] = [
   {
     id: "1",
     platform: "Email",
-    url: "mailto:john.doe@example.com",
-    handle: "john.doe@example.com"
+    url: "mailto:ammaralifianfahdan@gmail.com",
+    handle: "ammaralifianfahdan@gmail.com"
   },
   {
     id: "2",
     platform: "LinkedIn",
-    url: "https://linkedin.com/in/johndoe",
-    handle: "linkedin.com/in/johndoe"
+    url: "https://www.linkedin.com/in/ammar-alifian-fahdan-014372117",
+    handle: "Ammar Alifian Fahdan"
+  },
+  {
+    id: "3",
+    platform: "GitHub",
+    url: "https://www.github.com/kerupuksambel",
+    handle: "kerupuksambel"
   }
 ]
 

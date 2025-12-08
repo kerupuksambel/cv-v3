@@ -49,11 +49,16 @@ export function Hero() {
       {/* Content */}
       <div className="relative z-10 text-center px-4">
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
-          John Doe
+          Ammar Alifian F
         </h1>
         <h2 className="text-xl md:text-2xl text-slate-200 mb-8">
           Full Stack Web Developer
         </h2>
+        <div className="w-full flex justify-center mb-8">
+          <p className="text-white w-1/2 text-[1rem]">
+            A full-stack developer with focus on backend development. During my previous experiences, I built a strong foundation on business logic and problem-solving skills, alongside with a deep understanding of technologies and principles commonly used in the industry. I am currently exploring roles in backend development.
+          </p>
+        </div>
         <Button
           size="lg"
           variant="secondary"
