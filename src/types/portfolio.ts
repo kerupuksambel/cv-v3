@@ -9,9 +9,9 @@ export interface IPortfolio {
 }
 
 export interface ISkill {
-  id: string;
   name: string;
   icon: string;
+  desc?: string;
 }
 
 export interface ISocialMedia {
