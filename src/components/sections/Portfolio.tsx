@@ -14,36 +14,33 @@ const portfolioItems: IPortfolio[] = [
     description: "This project starts with our observation of undergrad students lacking a proper cycle of exercising, hence we made this app to tackle those problem by guiding and keeping students for more consistent cycle. To tackle those problem, we did extensive researches and finally formulated two main approaches; tracking the intensity of the exercise by detecting their BPM, and creating a recommendation system tailored for the user so they can directly exercise without any hassle of choosing the exercise menu they wanted to do. In this project, I worked on the BPM detection mechanism by utilizing Apple's technology such as WatchOS and HealthKit, and developed the synchronization between Apple Watch and iPhone. It resulted on a real-time connection and synchronization for the BPM tracking.",
     techStack: ["SwiftUI", "WatchOS", "iOS", "HealthKit"],
     images: [
-      "https://placehold.co/800x600/334155/ffffff?text=E-Commerce+1",
-      "https://placehold.co/800x600/334155/ffffff?text=E-Commerce+2",
-      "https://placehold.co/800x600/334155/ffffff?text=E-Commerce+3"
-    ]
-  },
-  {
-    id: "2",
-    name: "Bigedor",
-    client: "-",
-    year: "2025",
-    description: "This project starts with the lacks of online image editor that are able to handle high-resolution images and export them in high-resolution. Based on those problem, I designed the hybrid architecture I could use to let the high resolution images get loaded and processed more smoothly.",
-    techStack: ["TypeScript", "Node.js", "Skia", "HTML5 Canvas"],
-    images: [
-      "https://placehold.co/800x600/334155/ffffff?text=Social+App+1",
-      "https://placehold.co/800x600/334155/ffffff?text=Social+App+2",
-      "https://placehold.co/800x600/334155/ffffff?text=Social+App+3"
+      "public/portfolio/ExaMove.png"
     ]
   },
   // {
   //   id: "2",
-  //   name: "[REDACTED]",
-  //   client: "[REDACTED]",
-  //   year: "2023",
-  //   description: "This project came from the request of the client to create a social app specialized in event hosting. Based on the client's desired use cases, I designed the business flows and the overall architecture of the app. Besides that, I also lead the backend team to develop the API needed for the mobile app using NodeJS and ExpressJS. In this project, I was responsible for the overall project management, architecture design, and backend development.",
-  //   techStack: ["TypeScript", "Node.js", "ExpressJS", "MySQL", "Redis", "Docker"],
+  //   name: "Bigedor",
+  //   client: "-",
+  //   year: "2025",
+  //   description: "This project starts with the lacks of online image editor that are able to handle high-resolution images and export them in high-resolution. Based on those problem, I designed the hybrid architecture I could use to let the high resolution images get loaded and processed more smoothly.",
+  //   techStack: ["TypeScript", "Node.js", "Skia", "HTML5 Canvas"],
   //   images: [
-  //     "https://placehold.co/800x600/334155/ffffff?text=Healthcare+1",
-  //     "https://placehold.co/800x600/334155/ffffff?text=Healthcare+2"
+  //     "https://placehold.co/800x600/334155/ffffff?text=Social+App+1",
+  //     "https://placehold.co/800x600/334155/ffffff?text=Social+App+2",
+  //     "https://placehold.co/800x600/334155/ffffff?text=Social+App+3"
   //   ]
   // },
+  {
+    id: "2",
+    name: "Hostly",
+    client: "Hostly",
+    year: "2023",
+    description: "This project came from the request of the client to create a social app specialized in event hosting. Based on the client's desired use cases, I designed the business flows and the overall architecture of the app. Besides that, I also lead the backend team to develop the API needed for the mobile app using NodeJS and ExpressJS. In this project, I was responsible for the overall project management, architecture design, and backend development.",
+    techStack: ["TypeScript", "Node.js", "ExpressJS", "MySQL", "Redis", "Docker"],
+    images: [
+    "public/portfolio/Hostly.png"
+    ]
+  },
   {
     id: "3",
     name: "Cochrane Sinclair Landing Page",
@@ -52,8 +49,7 @@ const portfolioItems: IPortfolio[] = [
     description: "This project starts from the request of a client that wanted their landing page revamped, not only from the frontend side but also the backend one as well, given the existing landing page is a static Webframe app. To fulfill the requirements, I analyzed the existing landing page and built up the backend system based on the needed entities. In this project, I worked as a full staack developer, but especially working on the backend side, by building up the administrator system using Laravel and PHP. The result is a fully functional landing page with an easy-to-use administrator panel for managing the contents.",
     techStack: ["React", "Node.js", "Express", "MongoDB"],
     images: [
-      "https://placehold.co/800x600/334155/ffffff?text=RealEstate+1",
-      "https://placehold.co/800x600/334155/ffffff?text=RealEstate+2"
+      "public/portfolio/CS.png"
     ]
   }
 ]
