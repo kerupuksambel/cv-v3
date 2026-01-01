@@ -93,12 +93,12 @@ const skills: ISkill[] = [{
   icon: "devicon-google-plain" // No Maps icon; Google is valid
 }]
 
-const groupedSkills: SkillsProps[] = [
-  {
-    name: "iOS Development",
-    skills: skills.filter((skill) => ['Swift', 'SwiftUI', 'UIKit', 'CoreML'].includes(skill.name))
-  }
-]
+// const groupedSkills: SkillsProps[] = [
+//   {
+//     name: "iOS Development",
+//     skills: skills.filter((skill) => ['Swift', 'SwiftUI', 'UIKit', 'CoreML'].includes(skill.name))
+//   }
+// ]
 
 export function Skills() {
   return (
