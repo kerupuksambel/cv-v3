@@ -14,7 +14,7 @@ const portfolioItems: IPortfolio[] = [
     description: "This project starts with our observation of undergrad students lacking a proper cycle of exercising, hence we made this app to tackle those problem by guiding and keeping students for more consistent cycle. To tackle those problem, we did extensive researches and finally formulated two main approaches; tracking the intensity of the exercise by detecting their BPM, and creating a recommendation system tailored for the user so they can directly exercise without any hassle of choosing the exercise menu they wanted to do. In this project, I worked on the BPM detection mechanism by utilizing Apple's technology such as WatchOS and HealthKit, and developed the synchronization between Apple Watch and iPhone. It resulted on a real-time connection and synchronization for the BPM tracking.",
     techStack: ["SwiftUI", "WatchOS", "iOS", "HealthKit"],
     images: [
-      "public/portfolio/ExaMove.png"
+      "portfolio/ExaMove.png"
     ]
   },
   // {
@@ -38,7 +38,7 @@ const portfolioItems: IPortfolio[] = [
     description: "This project came from the request of the client to create a social app specialized in event hosting. Based on the client's desired use cases, I designed the business flows and the overall architecture of the app. Besides that, I also lead the backend team to develop the API needed for the mobile app using NodeJS and ExpressJS. In this project, I was responsible for the overall project management, architecture design, and backend development.",
     techStack: ["TypeScript", "Node.js", "ExpressJS", "MySQL", "Redis", "Docker"],
     images: [
-    "public/portfolio/Hostly.png"
+    "portfolio/Hostly.png"
     ]
   },
   {
@@ -49,7 +49,7 @@ const portfolioItems: IPortfolio[] = [
     description: "This project starts from the request of a client that wanted their landing page revamped, not only from the frontend side but also the backend one as well, given the existing landing page is a static Webframe app. To fulfill the requirements, I analyzed the existing landing page and built up the backend system based on the needed entities. In this project, I worked as a full staack developer, but especially working on the backend side, by building up the administrator system using Laravel and PHP. The result is a fully functional landing page with an easy-to-use administrator panel for managing the contents.",
     techStack: ["React", "Node.js", "Express", "MongoDB"],
     images: [
-      "public/portfolio/CS.png"
+      "portfolio/CS.png"
     ]
   }
 ]
