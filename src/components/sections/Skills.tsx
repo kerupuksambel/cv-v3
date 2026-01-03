@@ -1,10 +1,10 @@
 import { ISkill } from "@/types/portfolio"
 import { Card } from "@/components/ui/card"
 
-interface SkillsProps {
-  name: string;
-  skills: ISkill[];
-}
+// interface SkillsProps {
+//   name: string;
+//   skills: ISkill[];
+// }
 
 const skills: ISkill[] = [{
   name: "Swift",
