@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 
 const navigation = [
-  { name: 'Blog', href: 'https://blog.kerupuksambel.com', external: true },
+  { name: 'Blog', href: 'https://blog.kerupuksambel.net', external: true },
   { name: 'Experiences', href: '#experience' },
   { name: 'Portfolio', href: '#portfolio' },
   { name: 'Contact', href: '#contact' },
