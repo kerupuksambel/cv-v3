@@ -5,16 +5,39 @@ import { Badge } from "@/components/ui/badge"
 const experiences: IExperience[] = [
   {
     id: "0",
+    company: "Apple Developer Institute for DevOps",
+    position: "DevOps Engineer",
+    startYear: "2026",
+    endYear: "Present",
+    responsibilities: [
+      "Cut monthly observability spend from around $6,000 to below $200 by migrating from Grafana Cloud to self-hosted Grafana OSS",
+      "Architected a meeting planner for a 99.99% availability target across 10 EC2 instances, using an Auto Scaling Group, multi-AZ RDS, and an Application Load Balancer",
+      "Built a Bitbucket pipeline covering 3 environments, gating every build on linting, tests, coverage checks, and SonarQube SAST",
+      "Took the meeting planner from Minikube to bare metal and then to managed EKS, scaling it with HPA and Metrics Server",
+      "Processed around 750k samples/day on the Grafana LGTM stack, exporting telemetry with Alloy and building the dashboards the team monitors"
+    ],
+    techStack: [
+      "AWS",
+      "Kubernetes",
+      "EKS",
+      "Terraform",
+      "Bitbucket Pipelines",
+      "SonarQube",
+      "Grafana"
+    ]
+  },
+  {
+    id: "1",
     company: "Hostly",
     position: "Back End Developer",
     startYear: "2025",
-    endYear: "Present",
+    endYear: "2026",
     responsibilities: [
-      "Lead the backend team to work on the backend for Hostly, a social app optimized for hosting and promoting social events.",
-      "Designed the ERD and databases structure based on client’s needs",
-      "Worked on WebSocket technology for real-time messaging and optimized the payload for up to 90% speed",
-      "Worked on Firebase for real-time notification used by the application",
-      "Integrated Apple sign-in mechanism for Flutter mobile app"
+      "Led the backend team behind Hostly, a social app for hosting and promoting events, and reviewed the team's code",
+      "Designed the ERD and database structure from the client's requirements",
+      "Made real-time messaging up to 90% faster by optimizing WebSocket payloads",
+      "Built real-time notifications with Firebase",
+      "Integrated Apple Sign In into the Flutter mobile app"
     ],
     techStack: [
       "TypeScript",
@@ -26,39 +49,60 @@ const experiences: IExperience[] = [
     ]
   },
   {
-    id: "1",
+    id: "2",
+    company: "Apple Developer Academy",
+    position: "iOS Developer (Intern)",
+    startYear: "2025",
+    endYear: "2025",
+    responsibilities: [
+      "Led a team of 3 programmers building Meteor Crush, a space-themed SwiftUI game, and engineered its physics and meteor and star generation",
+      "Built ExaMove, a sport-buddy app for iOS and watchOS, syncing real-time heart-rate data between Apple Watch and iPhone",
+      "Trained an image recognition model with Create ML, Core ML, and YOLO"
+    ],
+    techStack: [
+      "Swift",
+      "SwiftUI",
+      "watchOS",
+      "HealthKit",
+      "Core ML"
+    ]
+  },
+  {
+    id: "3",
     company: "Rally the Locals",
     position: "Lead Developer",
     startYear: "2022",
-    endYear: "Present",
+    endYear: "2026",
     responsibilities: [
-      "Developed Rally the Locals main frontend along with supporting pages",
-      "Developed the payment gateway using Stripe",
-      "Developed and improved RTL admin dashboard for better administrator experience and easier organization",
-      "Designed and led migration from a PHP Laravel backend to NodeJS + ExpressJS backend",
-      "Designed Bitbucket CI pipeline for development",
-      "Handled deployment for the migrated frontend and backend"
+      "Grew monthly site views by up to 200% by redesigning the Next.js frontend and improving SEO",
+      "Designed and led the backend migration from PHP Laravel to Node.js + ExpressJS, then deployed the new frontend and backend",
+      "Built the platform's Stripe payment gateway",
+      "Built a granular CMS into the admin dashboard so administrators update landing-page text and images without needing a developer",
+      "Owned the design-to-development workflow, turning designers' Figma files into responsive features, and reviewed the team's code",
+      "Set up Bitbucket CI/CD with multi-stage Docker builds, cutting pipeline time from 8 to 5 minutes and automating promotion across dev, staging, and prod",
+      "Shrank the Next.js Docker image by up to 60% and cut S3 costs by up to 80% with proper bucket policy rules"
     ],
     techStack: [
-      "Laravel",
       "NextJS",
       "ExpressJS",
+      "Laravel",
       "Tailwind",
       "Stripe",
       "Docker",
+      "AWS",
       "Atlassian Suite"
     ]
   },
   {
-    id: "2",
+    id: "4",
     company: "Technowand",
     position: "Freelance Full Stack Web Developer",
     startYear: "2022",
     endYear: "2022",
     responsibilities: [
-      "Developed a fitness and personal trainer website using CodeIgniter",
-      "Handled Stripe integration for transactions",
-      "Developed the application using Scrum methodology"
+      "Built a fitness and personal-trainer website end to end with CodeIgniter",
+      "Integrated Stripe to handle the site's transactions",
+      "Delivered the project in Scrum sprints, tracked in Jira"
     ],
     techStack: [
       "CodeIgniter",
@@ -68,16 +112,15 @@ const experiences: IExperience[] = [
     ]
   },
   {
-    id: "3",
+    id: "5",
     company: "DPTSI - Institut Teknologi Sepuluh Nopember",
     position: "Intern Full Stack Web Developer",
     startYear: "2020",
     endYear: "2021",
     responsibilities: [
-      "Developed the proctoring system for ITS entrance exam",
-      "Designed the database and data management system to streamline report generation with up to 60% faster load times",
-      "Developed a MOOC platform using Laravel and Bootstrap",
-      "Designed scalable database and models for the MOOC application"
+      "Built the proctoring system for the ITS entrance exam",
+      "Redesigned the database and data management behind its reports, making report generation up to 60% faster",
+      "Built a MOOC platform with Laravel and Bootstrap, designing its database and models to scale"
     ],
     techStack: [
       "Laravel",

@@ -34,7 +34,7 @@ const portfolioItems: IPortfolio[] = [
     id: "2",
     name: "Hostly",
     client: "Hostly",
-    year: "2023",
+    year: "2025",
     description: "This project came from the request of the client to create a social app specialized in event hosting. Based on the client's desired use cases, I designed the business flows and the overall architecture of the app. Besides that, I also lead the backend team to develop the API needed for the mobile app using NodeJS and ExpressJS. In this project, I was responsible for the overall project management, architecture design, and backend development.",
     techStack: ["TypeScript", "Node.js", "ExpressJS", "MySQL", "Redis", "Docker"],
     images: [
@@ -46,8 +46,8 @@ const portfolioItems: IPortfolio[] = [
     name: "Cochrane Sinclair Landing Page",
     client: "Cochrane Sinclair",
     year: "2024",
-    description: "This project starts from the request of a client that wanted their landing page revamped, not only from the frontend side but also the backend one as well, given the existing landing page is a static Webframe app. To fulfill the requirements, I analyzed the existing landing page and built up the backend system based on the needed entities. In this project, I worked as a full staack developer, but especially working on the backend side, by building up the administrator system using Laravel and PHP. The result is a fully functional landing page with an easy-to-use administrator panel for managing the contents.",
-    techStack: ["React", "Node.js", "Express", "MongoDB"],
+    description: "The client wanted their landing page revamped on both the frontend and the backend, since the existing page was a static site with no way to manage its content. I analyzed the existing page, modeled the entities it needed, and built the backend around them. I worked full stack, building the frontend in React and focusing on the backend, where I built the administrator system with Laravel and PHP. The result is a fully functional landing page with an easy-to-use admin panel for managing its content.",
+    techStack: ["React", "Node.js", "Laravel", "PHP"],
     images: [
       "portfolio/CS.png"
     ]

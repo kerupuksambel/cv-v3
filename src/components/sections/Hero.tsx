@@ -52,11 +52,11 @@ export function Hero() {
           Ammar Alifian F
         </h1>
         <h2 className="text-xl md:text-2xl text-slate-200 mb-8">
-          Full Stack Web Developer
+          Software Developer - DevOps Engineer
         </h2>
         <div className="w-full flex justify-center mb-8">
           <p className="text-white w-1/2 text-[1rem]">
-            A full-stack developer with focus on backend development. During my previous experiences, I built a strong foundation on business logic and problem-solving skills, alongside with a deep understanding of technologies and principles commonly used in the industry. I am currently exploring roles in backend development.
+            I spent four years as a lead developer building and shipping web products before moving into DevOps. Shipping product taught me where engineers actually lose time: waiting on pipelines, fighting deploys, and guessing what production is doing. Now I build the pipelines, infrastructure, and observability that fix that, and make systems cheaper and faster to run.
           </p>
         </div>
         <Button
