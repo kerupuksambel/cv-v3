@@ -51,6 +51,17 @@ const portfolioItems: IPortfolio[] = [
     images: [
       "portfolio/CS.png"
     ]
+  },
+  {
+    id: "4",
+    name: "Unique Brazillian Dairy",
+    client: "Unique Brazillian Dairy",
+    year: "2023",
+    description: "My team and I revamped the website for Unique Brazillian Dairy, a client based in Winnipeg, Canada. I worked on the revamp itself and also assisted with the frontend work.",
+    techStack: ["Laravel", "Next.js"],
+    images: [
+      "https://api.kerupuksambel.net/static/ubd.png"
+    ]
   }
 ]
 
