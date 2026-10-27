@@ -10,8 +10,14 @@ export interface IPortfolio {
 
 export interface ISkill {
   name: string;
+  // A devicon class, or "simple:<slug>" for a Simple Icons SVG when devicon has none
   icon: string;
   desc?: string;
+}
+
+export interface ISkillGroup {
+  name: string;
+  skills: ISkill[];
 }
 
 export interface ISocialMedia {
